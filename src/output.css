@@ -161,6 +161,12 @@
   }
 }
 @layer utilities {
+  .-left-\[300px\] {
+    left: calc(300px * -1);
+  }
+  .left-0 {
+    left: calc(var(--spacing) * 0);
+  }
   .table {
     display: table;
   }
